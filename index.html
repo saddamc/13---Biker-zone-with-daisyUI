@@ -176,8 +176,27 @@
 
     </header>
     <main class="md:container md:mx-auto">
-        <section>
-            <!--  feature bikes-->
+        <!--  feature bikes-->
+        <section class="my-24">
+            <h3 class="text 5xl mb-20 font-semibold text-center">Fetured Bikes In This Year</h3>
+            <div class=" grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <!-- first -->
+                <div class="card w-96 bg-base-100">
+                    <figure><img src="images/others/feature1.png" alt="Shoes" /></figure>
+                    
+                </div>
+                <!-- second -->
+                <div class="card w-96 bg-base-100">
+                    <figure><img src="images/others/feature2.png" alt="Shoes" /></figure>
+                    
+                </div>
+                <!-- third -->
+                <div class="card w-96 bg-base-100">
+                    <figure><img src="images/others/feature3.png" alt="Shoes" /></figure>
+                    
+                </div>
+            </div>
+
         </section>
         <!-- latest bikes -->
         <section class="my-24">
@@ -360,18 +379,22 @@
 
     </main>
     <footer>
-        <footer class="footer p-10 bg-neutral text-neutral-content">
-            <aside>
+        <footer class="footer p-10 bg-neutral text-neutral-content mr-5 justify-between">
+            <aside class="pl-1 m-auto ">
               
-              <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
+              <p>Download Now <span class="ml-6 ">License</span> </p>
+              <P>About <span class="ml-6">Features</span> <span class="ml-6">Pricing</span> <span class="ml-6">Careers</span> <span class="ml-6">Help</span> <span class="ml-6">Privacy Policy</span> </P>
+              <p class="hidden md:contents lg:contents">© 2020 bike. All rights reserved</p>
             </aside> 
             <nav>
-              <header class="footer-title">Social</header> 
+              <header class="footer-title m-auto">Get the App</header> 
               <div class="grid grid-cols-1 gap-4">
                 <a><img class="w-36" src="images/others/android.png" alt=""></a>
                 <a><img class="w-36" src="images/others/ios.png" alt=""></a>
               </div>
             </nav>
+            <p class="lg:hidden md:hidden m-auto">© 2020 bike. All rights reserved</p>
+          
           </footer>
 
     </footer>
